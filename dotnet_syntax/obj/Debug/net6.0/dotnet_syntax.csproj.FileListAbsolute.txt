@@ -1,0 +1,15 @@
+D:\Advanced\dotnet_syntax\bin\Debug\net6.0\dotnet_syntax.exe
+D:\Advanced\dotnet_syntax\bin\Debug\net6.0\dotnet_syntax.deps.json
+D:\Advanced\dotnet_syntax\bin\Debug\net6.0\dotnet_syntax.runtimeconfig.json
+D:\Advanced\dotnet_syntax\bin\Debug\net6.0\dotnet_syntax.dll
+D:\Advanced\dotnet_syntax\bin\Debug\net6.0\dotnet_syntax.pdb
+D:\Advanced\dotnet_syntax\obj\Debug\net6.0\dotnet_syntax.csproj.AssemblyReference.cache
+D:\Advanced\dotnet_syntax\obj\Debug\net6.0\dotnet_syntax.GeneratedMSBuildEditorConfig.editorconfig
+D:\Advanced\dotnet_syntax\obj\Debug\net6.0\dotnet_syntax.AssemblyInfoInputs.cache
+D:\Advanced\dotnet_syntax\obj\Debug\net6.0\dotnet_syntax.AssemblyInfo.cs
+D:\Advanced\dotnet_syntax\obj\Debug\net6.0\dotnet_syntax.csproj.CoreCompileInputs.cache
+D:\Advanced\dotnet_syntax\obj\Debug\net6.0\dotnet_syntax.dll
+D:\Advanced\dotnet_syntax\obj\Debug\net6.0\refint\dotnet_syntax.dll
+D:\Advanced\dotnet_syntax\obj\Debug\net6.0\dotnet_syntax.pdb
+D:\Advanced\dotnet_syntax\obj\Debug\net6.0\dotnet_syntax.genruntimeconfig.cache
+D:\Advanced\dotnet_syntax\obj\Debug\net6.0\ref\dotnet_syntax.dll
