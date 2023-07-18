@@ -24,4 +24,14 @@ public abstract class Duck
     public void Swim() {
         Console.WriteLine("All ducks float, even decoys!");
     }
+    // Duck mallard = new MallardDuck();
+    // mallard.Display();
+    // mallard.setFlyBehavior(new FlyRocketPowered());
+    // mallard.PerformQuack();
+    // mallard.PerformFly();
+    // Console.WriteLine("------------------------");
+    // Duck decoy = new DecoyDuck();
+    // decoy.Display();
+    // decoy.PerformQuack();
+    // decoy.PerformFly();
 }
