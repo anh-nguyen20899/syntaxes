@@ -1,12 +1,17 @@
-﻿using dotnet_syntax.Abstract;
-using dotnet_syntax.Observer;
-using dotnet_syntax.Strategy;
+﻿using dotnet_syntax.Factory;
 
 
-WeatherData weatherData = new WeatherData();
+PizzaStore nyPizzaStore = new NYStylePizzaStore();
+PizzaStore chicagoStore = new ChicagoStylePizzaStore();
 
-CurrentConditionsDisplay currentDisplay = new CurrentConditionsDisplay(weatherData);
-StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);
-ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
+Console.WriteLine("--------------------------------------------");
+Console.WriteLine("Anh ordered a chesse NY style Pizza");
+nyPizzaStore.orderPizza("cheese");
 
-weatherData.setMeasurements(80, 65, 30.4f);
+Console.WriteLine("--------------------------------------------");
+Console.WriteLine("Tran ordered a pepperoni NY style Pizza");
+nyPizzaStore.orderPizza("pepperoni");
+
+Console.WriteLine("--------------------------------------------");
+Console.WriteLine("Joel ordered a clam Chicago style Pizza");
+chicagoStore.orderPizza("clam");
