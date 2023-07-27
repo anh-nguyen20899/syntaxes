@@ -1,17 +1,16 @@
 namespace dotnet_syntax.Factory;
-public class SimplePizzaFactory 
+public class NYStylePizzaStore : PizzaStore 
 {
-    public Pizza createPizza(String type) 
+    public override Pizza createPizza(String type) 
     {
         Pizza pizza = null;
         if (type.Equals("cheese")) {
         pizza = new NYCheesePizza();
         } else if (type.Equals("pepperoni")) {
         pizza = new NYPepperoniPizza();
-        } else if (type.Equals("clam")) {
-        pizza = new ChicagoClamPizza();
-        } else if (type.Equals("veggie")) {
-        pizza = new ChicagoVeggiePizza();
+        } else {
+            Console.WriteLine("There is no such kind in our New York store!");
+            return null;
         }
         return pizza;
     }
